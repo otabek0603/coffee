@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-700.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-900.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-900.woff') format('woff');
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", "Arial", sans-serif;
+}
+
+.container{
+    width: 1320px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    margin-top: 44px;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 45px;
+}
+
+.header__img{
+    width: 236px;
+    height: 26px;
+    margin-right: 700px;
+}
+
+.header__list{
+    display: flex;
+    list-style: none;
+}
+
+.header__item{
+    margin-left: 33px;
+}
+
+.header__link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;;
+}
+
+.great{
+    background-image: url(../images/Bitmap.png);
+    width: 1280px;
+    height: 600px;
+    padding: 75px 85px;
+    margin-bottom: 136px;
+}
+
+.great__hear{
+    width: 525px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.great__text{
+    width: 445px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-bottom: 56px;
+}
+
+.great__link{
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 16px 31px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
